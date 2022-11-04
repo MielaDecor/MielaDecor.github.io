@@ -172,3 +172,13 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// sub
+const form = document.getElementById('form')
+const formInput = document.querySelector('.subscribe__input')
+const formBtn = document.querySelector('.button')
+
+form.addEventListener('submit',e => {
+  e.preventDefault()
+
+})
